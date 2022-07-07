@@ -20,7 +20,6 @@
           <SearchDropdown
             :options="bands"
             v-on:selected="onSelectedOption($event)"
-            autocomplete="off"
             placeholder="Start typing band name"
           >
           </SearchDropdown>
@@ -39,7 +38,9 @@
 </template>
 
 <script>
-  import SearchDropdown from 'search-dropdown-vue'
+  // import SearchDropdown from 'search-dropdown-vue'
+  import SearchDropdown from './SearchDropdown.vue'
+
 
   export default {
     name: 'Modal',
@@ -176,6 +177,7 @@
           { name: 'Imagine Dragons', id: 'imaginedragons' },
           { name: 'InMe', id: 'inme' },
           { name: 'Incubus', id: 'incubus' },
+          { name: 'The Interrupters', id: 'interrupters' },
           { name: 'Iron Maiden', id: 'ironmaiden' },
           { name: 'Jack White', id: 'jackwhite' },
           { name: 'Janes Addiction', id: 'janesaddiction' },
@@ -185,6 +187,7 @@
           { name: 'Judas Priest', id: 'judaspriest' },
           { name: 'Kamelot', id: 'kamelot' },
           { name: 'Kendrick Lamar', id: 'kendrick' },
+          { name: 'Kid Kapichi', id: 'kidkapichi' },
           { name: 'Killing Joke', id: 'killingjoke' },
           { name: 'Killswitch Engage', id: 'kse' },
           { name: 'King Gizzard & The Lizard Wizard', id: 'kgatlw' },
@@ -200,6 +203,7 @@
           { name: 'Machine Head', id: 'machinehead' },
           { name: 'Malevolence', id: 'malevolence' },
           { name: 'Maneskin', id: 'maneskin' },
+          { name: 'Manic Street Preachers', id: 'msp' },
           { name: 'Marilyn Manson', id: 'marilynmanson' },
           { name: 'Marmozets', id: 'marmozets' },
           { name: 'The Mars Volta', id: 'themarsvolta' },
@@ -211,6 +215,7 @@
           { name: 'Meshuggah', id: 'meshuggah' },
           { name: 'Ministry', id: 'ministry' },
           { name: 'Misfits', id: 'misfits' },
+          { name: 'Mogwai', id: 'mogwai' },
           { name: 'Monuments', id:  'monuments' },
           { name: 'Motley Crue', id: 'motleycrue' },
           { name: 'Mr Bungle', id: 'mrbungle' },
@@ -278,11 +283,14 @@
           { name: 'Sick Of It All', id: 'soia' },
           { name: 'Sikth', id: 'sikth' },
           { name: 'Skindred', id: 'skindred' },
+          { name: 'Skunk Anansie', id: 'skunkanansie' },
+          { name: 'Sleep Token', id: 'sleeptoken' },
           { name: 'Sleeping With Sirens', id: 'sws' },
           { name: 'Slipknot', id: 'slipknot' },
           { name: 'The Smashing Pumpkins', id: 'tsp' },
           { name: 'Spiritbox', id: 'spiritbox' },
           { name: 'Staind', id: 'staind' },
+          { name: 'Static Dress', id: 'staticdress' },
           { name: 'Steel Panther', id: 'steelpanther' },
           { name: 'Stone Sour', id: 'stonesour' },
           { name: 'The Story So Far', id: 'tssf' },
@@ -295,6 +303,7 @@
           { name: 'Tenacious D', id: 'tenaciousd' },
           { name: 'Testament', id: 'testament' },
           { name: 'Therapy', id: 'therapy' },
+          { name: 'Thrice', id: 'thrice' },
           { name: 'Thunder', id: 'thunder' },
           { name: 'Thy Art Is Murder', id: 'thyartismurder' },
           { name: 'Tool', id: 'tool' },
@@ -302,6 +311,7 @@
           { name: 'Trophy Eyes', id: 'trophyeyes' },
           { name: 'Turnstile', id: 'turnstile' },
           { name: 'Twenty One Pilots', id: 'twentyonepilots' },
+          { name: 'The Used', id: 'theused' },
           { name: 'Venom Prison', id: 'venomprison' },
           { name: 'Volbeat', id: 'volbeat' },
           { name: 'Wargasm', id: 'wargasm' },
@@ -322,16 +332,11 @@
           { name: '100 Gecs', id: 'gecs' },
         ]
       },
-      // getDropdownValues() {
-      //   return [ {id: 1, name: 'Jeff'}, {id: 2, name: 'Jeff'} ]
-      // }
-      // onSelectedOption() = (payload) => object = payload
     },
     methods: {
         onSelectedOption(selected) {
           this.$emit('selected', selected)
 
-      // console.log(selected.name?.toLowerCase())
     },
       close() {
         this.$emit('close');
@@ -359,7 +364,7 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    /* height: 300px; */
+    max-width: 500px;
     font-family: 'PT Sans Narrow', sans-serif;
   }
 

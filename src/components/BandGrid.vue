@@ -103,6 +103,7 @@
       @selected="onSelect"
       @close="closeModal"
       :title="modalTitle"
+      :key="key"
     />
   </div>
 </template>
@@ -158,19 +159,17 @@ export default {
           },
           modalPosition: '',
           modalTitle: '',
+          key: 0,
       }
   },
   methods: {
       openModal(position, title) {
-          // this.bandPosition[position] = 'slipknot'
           this.modalPosition = position
           this.modalTitle = title
+          this.key += 1
           this.isModalVisible = true
       },
       onSelect(selected) {
-        console.log(this.modalPosition)
-        console.log('band grid: ', selected)
-        // const selectedBand = selected.name?.toLowerCase()
         const selectedBand = selected.id
         this.bandPosition[this.modalPosition] = selectedBand
       },
@@ -206,10 +205,6 @@ export default {
 .main-stage-divider:hover, .second-stage-divider:hover, .third-stage-divider:hover {
   border: none !important;
 }
-
-/* .slipknot {
-    background-image: url(../assets/bands/slipknot.png);
-} */
 
 /* headliners */
 
@@ -486,5 +481,14 @@ export default {
 .wetleg { background-image: url(../assets/bands/wetleg.png); }
 .whitesnake { background-image: url(../assets/bands/whitesnake.png); }
 .feeder { background-image: url(../assets/bands/feeder.png); }
+.interrupters { background-image: url(../assets/bands/interrupters.png); }
+.kidkapichi { background-image: url(../assets/bands/kidkapichi.png); }
+.msp { background-image: url(../assets/bands/msp.png); }
+.mogwai { background-image: url(../assets/bands/mogwai.png); }
+.sleeptoken { background-image: url(../assets/bands/sleeptoken.png); }
+.staticdress { background-image: url(../assets/bands/staticdress.png); }
+.thrice { background-image: url(../assets/bands/thrice.png); }
+.theused { background-image: url(../assets/bands/theused.png); }
+.skunkanansie { background-image: url(../assets/bands/skunkanansie.png); }
 
 </style>
