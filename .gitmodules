@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = git://github.com/JoeySteel/festival-poster-creator-leeds
+  url = git://github.com/benjicwood/festival-poster-creator
