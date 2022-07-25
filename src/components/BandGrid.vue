@@ -490,5 +490,16 @@ export default {
 .thrice { background-image: url(../assets/bands/thrice.png); }
 .theused { background-image: url(../assets/bands/theused.png); }
 .skunkanansie { background-image: url(../assets/bands/skunkanansie.png); }
+.heck { background-image: url(../assets/bands/heck.png); }
+.twintemple { background-image: url(../assets/bands/twintemple.png); }
+.baroness { background-image: url(../assets/bands/baroness.png); }
+.silverchair { background-image: url(../assets/bands/silverchair.png); }
+.lacunacoil { background-image: url(../assets/bands/lacunacoil.png); }
+.inflames { background-image: url(../assets/bands/inflames.png); }
+.slayer { background-image: url(../assets/bands/slayer.png); }
+.pantera { background-image: url(../assets/bands/pantera.png); }
+.thirtystm { background-image: url(../assets/bands/30stm.png); }
+.gorillaz { background-image: url(../assets/bands/gorillaz.png); }
+.oasis { background-image: url(../assets/bands/oasis.png); }
 
 </style>
