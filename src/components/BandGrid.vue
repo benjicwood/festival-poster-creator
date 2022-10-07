@@ -500,6 +500,10 @@ export default {
 .pantera { background-image: url(../assets/bands/pantera.png); }
 .thirtystm { background-image: url(../assets/bands/30stm.png); }
 .gorillaz { background-image: url(../assets/bands/gorillaz.png); }
-.oasis { background-image: url(../assets/bands/oasis.png); }
+.ajtracey { background-image: url(../assets/bands/ajtracey.png); }
+.halsey { background-image: url(../assets/bands/halsey.png); }
+.depechemode { background-image: url(../assets/bands/depechemode.png); }
+.marina { background-image: url(../assets/bands/marina.png); }
+
 
 </style>
