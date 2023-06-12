@@ -1,17 +1,17 @@
 <template>
   <div class="band-grid">
     <!-- Main Stage Headliners -->
-    <BandSection position="main-headliner" @click="openModal('thursdayHeadliner', 'Thursday Headliner')" :band="bandPosition.thursdayHeadliner" />
+    <!-- <BandSection position="main-headliner" @click="openModal('thursdayHeadliner', 'Thursday Headliner')" :band="bandPosition.thursdayHeadliner" /> -->
     <BandSection position="main-headliner" @click="openModal('fridayHeadliner', 'Friday Headliner')" :band="bandPosition.fridayHeadliner" />
     <BandSection position="main-headliner" @click="openModal('saturdayHeadliner', 'Saturday Headliner')" :band="bandPosition.saturdayHeadliner" />
     <BandSection position="main-headliner" @click="openModal('sundayHeadliner', 'Sunday Headliner')" :band="bandPosition.sundayHeadliner" />
     <!-- Main Stage Subs -->
-    <BandSection position="main-sub" @click="openModal('thursdaySub', 'Thursday Sub-Headliner')" :band="bandPosition.thursdaySub" />
+    <!-- <BandSection position="main-sub" @click="openModal('thursdaySub', 'Thursday Sub-Headliner')" :band="bandPosition.thursdaySub" /> -->
     <BandSection position="main-sub" @click="openModal('fridaySub', 'Friday Sub-Headliner')" :band="bandPosition.fridaySub" />
     <BandSection position="main-sub" @click="openModal('saturdaySub', 'Saturday Sub-Headliner')" :band="bandPosition.saturdaySub" />
     <BandSection position="main-sub" @click="openModal('sundaySub', 'Sunday Sub-Headliner')" :band="bandPosition.sundaySub" />
     <!-- Main Stage Third -->
-    <BandSection position="main-third" @click="openModal('thursdayThird', 'Thursday Third Down')" :band="bandPosition.thursdayThird" />
+    <!-- <BandSection position="main-third" @click="openModal('thursdayThird', 'Thursday Third Down')" :band="bandPosition.thursdayThird" /> -->
     <BandSection position="main-third" @click="openModal('fridayThird', 'Friday Third Down')" :band="bandPosition.fridayThird" />
     <BandSection position="main-third" @click="openModal('saturdayThird', 'Saturday Third Down')" :band="bandPosition.saturdayThird" />
     <BandSection position="main-third" @click="openModal('sundayThird', 'Sunday Third Down')" :band="bandPosition.sundayThird" />
@@ -25,41 +25,33 @@
     <BandInput size="large" />
     <BandInput size="large" />
     <BandInput size="large" />
-    <BandInput size="large" />
-    <BandInput size="large" />
-    <BandInput size="large" />
-    <div class="main-stage-divider"></div>
     <div class="main-stage-divider"></div>
     <div class="main-stage-divider"></div>
     <div class="main-stage-divider"></div>
     <!-- Second Stage -->
-    <BandSection position="main-third" @click="openModal('thursdaySecondHeadliner', 'Thursday Second Stage Headliner')" :band="bandPosition.thursdaySecondHeadliner" />
+    <!-- <BandSection position="main-third" @click="openModal('thursdaySecondHeadliner', 'Thursday Second Stage Headliner')" :band="bandPosition.thursdaySecondHeadliner" /> -->
     <BandSection position="main-third" @click="openModal('fridaySecondHeadliner', 'Friday Second Stage Headliner')" :band="bandPosition.fridaySecondHeadliner" />
     <BandSection position="main-third" @click="openModal('saturdaySecondHeadliner', 'Saturday Second Stage Headliner')" :band="bandPosition.saturdaySecondHeadliner" />
     <BandSection position="main-third" @click="openModal('sundaySecondHeadliner', 'Sunday Second Stage Headliner')" :band="bandPosition.sundaySecondHeadliner" />
-    <BandSection position="second-sub" @click="openModal('thursdaySecondSub', 'Thursday Second Stage Sub')" :band="bandPosition.thursdaySecondSub" />
+    <!-- <BandSection position="second-sub" @click="openModal('thursdaySecondSub', 'Thursday Second Stage Sub')" :band="bandPosition.thursdaySecondSub" /> -->
     <BandSection position="second-sub" @click="openModal('fridaySecondSub', 'Friday Second Stage Sub')" :band="bandPosition.fridaySecondSub" />
     <BandSection position="second-sub" @click="openModal('saturdaySecondSub', 'Saturday Second Stage Sub')" :band="bandPosition.saturdaySecondSub" />
     <BandSection position="second-sub" @click="openModal('sundaySecondSub', 'Sunday Second Stage Sub')" :band="bandPosition.sundaySecondSub" />
     <BandInput size="large" />
     <BandInput size="large" />
     <BandInput size="large" />
-    <BandInput size="large" />
     <BandInput size="medium" />
     <BandInput size="medium" />
     <BandInput size="medium" />
     <BandInput size="medium" />
     <BandInput size="medium" />
     <BandInput size="medium" />
-    <BandInput size="medium" />
-    <BandInput size="medium" />
-    <div class="second-stage-divider"></div>
     <div class="second-stage-divider"></div>
     <div class="second-stage-divider"></div>
     <div class="second-stage-divider"></div>
     <!-- <BandInput /> -->
     <!-- Third Stage -->
-    <BandSection position="second-sub" @click="openModal('thursdayThirdStage', 'Thursday Third Stage Headliner')" :band="bandPosition.thursdayThirdStage" />
+    <!-- <BandSection position="second-sub" @click="openModal('thursdayThirdStage', 'Thursday Third Stage Headliner')" :band="bandPosition.thursdayThirdStage" /> -->
     <BandSection position="second-sub" @click="openModal('fridayThirdStage', 'Friday Third Stage Headliner')" :band="bandPosition.fridayThirdStage" />
     <BandSection position="second-sub" @click="openModal('saturdayThirdStage', 'Saturday Third Stage Headliner')" :band="bandPosition.saturdayThirdStage" />
     <BandSection position="second-sub" @click="openModal('sundayThirdStage', 'Sunday Third Stage Headliner')" :band="bandPosition.sundayThirdStage" />
@@ -72,21 +64,14 @@
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
-    <BandInput size="small" />
-    <BandInput size="small" />
-    <BandInput size="small" />
-    <div class="third-stage-divider"></div>
     <div class="third-stage-divider"></div>
     <div class="third-stage-divider"></div>
     <div class="third-stage-divider"></div>
     <!-- Fourth Stage -->
-    <BandSection position="second-sub" @click="openModal('thursdayFourthStage', 'Thursday Fourth Stage Headliner')" :band="bandPosition.thursdayFourthStage" />
+    <!-- <BandSection position="second-sub" @click="openModal('thursdayFourthStage', 'Thursday Fourth Stage Headliner')" :band="bandPosition.thursdayFourthStage" /> -->
     <BandSection position="second-sub" @click="openModal('fridayFourthStage', 'Friday Fourth Stage Headliner')" :band="bandPosition.fridayFourthStage" />
     <BandSection position="second-sub" @click="openModal('saturdayFourthStage', 'Saturday Fourth Stage Headliner')" :band="bandPosition.saturdayFourthStage" />
     <BandSection position="second-sub" @click="openModal('sundayFourthStage', 'Sunday Fourth Stage Headliner')" :band="bandPosition.sundayFourthStage" />
-    <BandInput size="small" />
-    <BandInput size="small" />
-    <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
@@ -183,7 +168,7 @@ export default {
 <style scoped style="scss">
 .band-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 5px;
   padding: 210px 12px 0 10px;
   height: 100px;
@@ -504,6 +489,10 @@ export default {
 .halsey { background-image: url(../assets/bands/halsey.png); }
 .depechemode { background-image: url(../assets/bands/depechemode.png); }
 .marina { background-image: url(../assets/bands/marina.png); }
+.busted { background-image: url(../assets/bands/busted.png); }
+.mydyingbride { background-image: url(../assets/bands/mydyingbride.png); }
+.novatwins { background-image: url(../assets/bands/novatwins.png); }
+.nothingnowhere { background-image: url(../assets/bands/nothingnowhere.png); }
 
 
 </style>
