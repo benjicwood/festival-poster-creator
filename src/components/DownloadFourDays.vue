@@ -23,7 +23,7 @@ export default {
 
 .download-four-day {
   background-color: #711214;
-  background-image: url(../assets/download20234day.jpg);
+  background-image: url(../assets/download2024.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
