@@ -1,16 +1,19 @@
 <template>
   <div class="download-four-day">
     <BandGrid />
+    <SidePanel />
   </div>
 </template>
 
 <script>
 import BandGrid from "./BandGrid.vue"
+import SidePanel from "./SidePanel.vue";
 
 export default {
   name: 'DownloadFourDays',
   components: {
     BandGrid,
+    SidePanel,
   },
   props: {
     msg: String
