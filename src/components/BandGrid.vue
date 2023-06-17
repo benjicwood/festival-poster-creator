@@ -493,6 +493,10 @@ export default {
 .mydyingbride { background-image: url(../assets/bands/mydyingbride.png); }
 .novatwins { background-image: url(../assets/bands/novatwins.png); }
 .nothingnowhere { background-image: url(../assets/bands/nothingnowhere.png); }
-
+.alesana { background-image: url(../assets/bands/alesana.png); }
+.the1975 { background-image: url(../assets/bands/the1975.png); }
+.nodoubt { background-image: url(../assets/bands/nodoubt.png); }
+.badomens { background-image: url(../assets/bands/badomens.png); }
+.slash { background-image: url(../assets/bands/slash.png); }
 
 </style>

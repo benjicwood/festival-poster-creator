@@ -6,14 +6,13 @@
         method="POST"
         class="email-box"
       >
-        <label class="input-box">
+        <!-- <label class="input-box">
           <p style="margin: 0">Your email:</p>
           <input type="email" name="email" />
-        </label>
+        </label> -->
 
         <label class="input-box">
-          <br />
-          <p style="margin: 0">Suggest a logo!</p>
+          <p style="margin: 0; font-size: 1.2rem; font-weight: bold;">Suggest a logo!</p>
           <p style="font-size: 0.8rem; margin: 0">
             Let me know if i've missed someone, or give other
             feedback/suggestions
@@ -23,7 +22,7 @@
         </label>
 
         <!-- your other form fields go here -->
-        <button type="submit">Send</button>
+        <button type="submit" class="send-button">Send</button>
         <p style="font-size: 0.7rem">
           warning - pressing send will leave the page
         </p>
@@ -84,5 +83,13 @@ export default {
     width: 80%;
     margin: auto;
   }
+}
+.send-button {
+    background-color: #ff5f5f29 !important;
+    color: #ff5f5f !important;
+    border: 2px solid #ff5f5f14 !important;
+    border-radius: 100px!important;
+    padding: 5px 10px;
+    margin-top: 5px;
 }
 </style>
