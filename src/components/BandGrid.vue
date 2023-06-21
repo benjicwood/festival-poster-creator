@@ -498,5 +498,20 @@ export default {
 .nodoubt { background-image: url(../assets/bands/nodoubt.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
 .slash { background-image: url(../assets/bands/slash.png); }
+.palayeroyale { background-image: url(../assets/bands/palayeroyale.png); }
+.ink { background-image: url(../assets/bands/ink.png); }
+.iprevail { background-image: url(../assets/bands/iprevail.png); }
+.miw { background-image: url(../assets/bands/miw.png); }
+.ashnikko { background-image: url(../assets/bands/ashnikko.png); }
+.knockedloose { background-image: url(../assets/bands/knockedloose.png); }
+.cky { background-image: url(../assets/bands/cky.png); }
+.fallinginreverse { background-image: url(../assets/bands/fallinginreverse.png); }
+.sevendust { background-image: url(../assets/bands/sevendust.png); }
+.blossoms { background-image: url(../assets/bands/blossoms.png); }
+.loathe { background-image: url(../assets/bands/loathe.png); }
+.crosses { background-image: url(../assets/bands/crosses.png); }
+.duranduran { background-image: url(../assets/bands/duranduran.png); }
+.thehives { background-image: url(../assets/bands/thehives.png); }
+.tesseract { background-image: url(../assets/bands/tesseract.png); }
 
 </style>
