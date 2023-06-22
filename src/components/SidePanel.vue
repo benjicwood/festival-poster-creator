@@ -59,7 +59,7 @@ export default {
 // }
 @media screen and (max-width: 992px) {
   .side-bar {
-    visibility: hidden;
+    display: none;
   }
 }
 
