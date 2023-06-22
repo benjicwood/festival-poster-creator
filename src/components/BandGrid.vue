@@ -513,5 +513,10 @@ export default {
 .duranduran { background-image: url(../assets/bands/duranduran.png); }
 .thehives { background-image: url(../assets/bands/thehives.png); }
 .tesseract { background-image: url(../assets/bands/tesseract.png); }
+.betterlovers { background-image: url(../assets/bands/betterlovers.png); }
+.highonfire { background-image: url(../assets/bands/highonfire.png); }
+.cypresshill { background-image: url(../assets/bands/cypresshill.png); }
+.dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
+.perturbator { background-image: url(../assets/bands/perturbator.png); }
 
 </style>
