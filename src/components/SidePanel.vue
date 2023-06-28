@@ -22,13 +22,19 @@
         </label>
 
         <!-- your other form fields go here -->
-        <button type="submit" class="send-button">Send</button>
-        <p style="font-size: 0.7rem">
+        <button type="submit" disabled class="send-button">Send</button>
+        <!-- <p style="font-size: 0.7rem">
           warning - pressing send will leave the page
+        </p> -->
+        <p style="font-size: 0.8rem; margin: 1rem">
+          I've hit the monthly limit! Thanks for the responses so far, will reopen it when it allows me to.
+        </p>
+        <p style="font-size: 0.6rem; margin: 0 20px">
+          email bencharlwood@gmail.com with any other questions, some were asked but with no way to respond
         </p>
       </form>
     </div>
-    <div>
+    <!-- <div>
       <iframe
         id="kofiframe"
         src="https://ko-fi.com/benjicwood/?hidefeed=true&widget=true&embed=true&preview=true"
@@ -36,7 +42,7 @@
         height="712"
         title="benjicwood"
       ></iframe>
-    </div>
+    </div> -->
   </div>
 </template>
 
