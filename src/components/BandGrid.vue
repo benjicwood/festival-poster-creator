@@ -413,6 +413,7 @@ export default {
 .napalmdeath { background-image: url(../assets/bands/napalmdeath.png); }
 .necrophagist { background-image: url(../assets/bands/necrophagist.png); }
 .neurosis { background-image: url(../assets/bands/neurosis.png); }
+.oasis { background-image: url(../assets/bands/oasis.png); }
 .oathbreaker { background-image: url(../assets/bands/oathbreaker.png); }
 .paradiselost { background-image: url(../assets/bands/paradiselost.png); }
 .puddleofmudd { background-image: url(../assets/bands/puddleofmudd.png); }
@@ -518,5 +519,11 @@ export default {
 .cypresshill { background-image: url(../assets/bands/cypresshill.png); }
 .dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
 .perturbator { background-image: url(../assets/bands/perturbator.png); }
+.whitechapel { background-image: url(../assets/bands/whitechapel.png); }
+.icp { background-image: url(../assets/bands/icp.png); }
+.cannibalcorpse { background-image: url(../assets/bands/cannibalcorpse.png); }
+.exodus { background-image: url(../assets/bands/exodus.png); }
+.suicideboys { background-image: url(../assets/bands/suicideboys.png); }
+.inthismoment { background-image: url(../assets/bands/inthismoment.png); }
 
 </style>
