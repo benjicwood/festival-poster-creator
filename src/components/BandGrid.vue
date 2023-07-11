@@ -525,5 +525,6 @@ export default {
 .exodus { background-image: url(../assets/bands/exodus.png); }
 .suicideboys { background-image: url(../assets/bands/suicideboys.png); }
 .inthismoment { background-image: url(../assets/bands/inthismoment.png); }
+.creed { background-image: url(../assets/bands/creed.png); }
 
 </style>

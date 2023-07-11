@@ -129,6 +129,7 @@
           { name: 'Coheed & Cambria', id: 'candc' },
           { name: 'Converge', id: 'converge' },
           { name: 'Cradle Of Filth', id: 'cof' },
+          { name: 'Creed', id: 'creed' },
           { name: 'Creeper', id: 'creeper' },
           { name: 'Crosses', id: 'crosses' },
           { name: 'Cult Of Luna', id: 'cultofluna' },
