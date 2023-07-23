@@ -52,12 +52,9 @@
     <!-- <BandInput /> -->
     <!-- Third Stage -->
     <!-- <BandSection position="second-sub" @click="openModal('thursdayThirdStage', 'Thursday Third Stage Headliner')" :band="bandPosition.thursdayThirdStage" /> -->
-    <BandSection position="second-sub" @click="openModal('fridayThirdStage', 'Friday Third Stage Headliner')" :band="bandPosition.fridayThirdStage" />
-    <BandSection position="second-sub" @click="openModal('saturdayThirdStage', 'Saturday Third Stage Headliner')" :band="bandPosition.saturdayThirdStage" />
-    <BandSection position="second-sub" @click="openModal('sundayThirdStage', 'Sunday Third Stage Headliner')" :band="bandPosition.sundayThirdStage" />
-    <BandInput size="small" />
-    <BandInput size="small" />
-    <BandInput size="small" />
+    <BandSection position="main-third" @click="openModal('fridayThirdStage', 'Friday Third Stage Headliner')" :band="bandPosition.fridayThirdStage" />
+    <BandSection position="main-third" @click="openModal('saturdayThirdStage', 'Saturday Third Stage Headliner')" :band="bandPosition.saturdayThirdStage" />
+    <BandSection position="main-third" @click="openModal('sundayThirdStage', 'Sunday Third Stage Headliner')" :band="bandPosition.sundayThirdStage" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
@@ -69,18 +66,18 @@
     <div class="third-stage-divider"></div>
     <!-- Fourth Stage -->
     <!-- <BandSection position="second-sub" @click="openModal('thursdayFourthStage', 'Thursday Fourth Stage Headliner')" :band="bandPosition.thursdayFourthStage" /> -->
-    <BandSection position="second-sub" @click="openModal('fridayFourthStage', 'Friday Fourth Stage Headliner')" :band="bandPosition.fridayFourthStage" />
-    <BandSection position="second-sub" @click="openModal('saturdayFourthStage', 'Saturday Fourth Stage Headliner')" :band="bandPosition.saturdayFourthStage" />
-    <BandSection position="second-sub" @click="openModal('sundayFourthStage', 'Sunday Fourth Stage Headliner')" :band="bandPosition.sundayFourthStage" />
+    <BandSection position="fourth-headliner" @click="openModal('fridayFourthStage', 'Friday Fourth Stage Headliner')" :band="bandPosition.fridayFourthStage" />
+    <BandSection position="fourth-headliner" @click="openModal('saturdayFourthStage', 'Saturday Fourth Stage Headliner')" :band="bandPosition.saturdayFourthStage" />
+    <BandSection position="fourth-headliner" @click="openModal('sundayFourthStage', 'Sunday Fourth Stage Headliner')" :band="bandPosition.sundayFourthStage" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
     <BandInput size="small" />
+    <!-- <BandInput size="small" />
     <BandInput size="small" />
-    <BandInput size="small" />
-    <BandInput size="small" />
+    <BandInput size="small" /> -->
 
     <!-- Modal -->
     <Modal
@@ -179,13 +176,13 @@ export default {
 }
 
 .main-stage-divider {
-  height: 10px;
+  height: 22px;
 }
 .second-stage-divider {
-  height: 8px;
+  height: 12px;
 }
 .third-stage-divider {
-  height: 4px;
+  height: 20px;
 }
 .main-stage-divider:hover, .second-stage-divider:hover, .third-stage-divider:hover {
   border: none !important;
@@ -202,7 +199,7 @@ export default {
 .biffyclyro { background-image: url(../assets/bands/biffyclyro.png); }
 .blink182 { background-image: url(../assets/bands/blink182.png); }
 .bonjovi { background-image: url(../assets/bands/bonjovi.png); }
-.bmth { background-image: url(../assets/bands/bmth.png); }
+.bmth { background-image: url(../assets/bands/bmth.png); transform: scale(1.25); }
 .thecure { background-image: url(../assets/bands/thecure.png); }
 .defleppard { background-image: url(../assets/bands/defleppard.png); }
 .foofighters { background-image: url(../assets/bands/foofighters.png); }
@@ -526,5 +523,6 @@ export default {
 .suicideboys { background-image: url(../assets/bands/suicideboys.png); }
 .inthismoment { background-image: url(../assets/bands/inthismoment.png); }
 .creed { background-image: url(../assets/bands/creed.png); }
+.skynd { background-image: url(../assets/bands/skynd.png); }
 
 </style>

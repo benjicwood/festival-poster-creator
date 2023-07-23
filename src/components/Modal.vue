@@ -327,6 +327,7 @@
           { name: 'Silverchair', id: 'silverchair' },
           { name: 'Skindred', id: 'skindred' },
           { name: 'Skunk Anansie', id: 'skunkanansie' },
+          { name: 'Skynd', id: 'skynd' },
           { name: 'Slash', id: 'slash' },
           { name: 'Slayer', id: 'slayer' },
           { name: 'Sleep Token', id: 'sleeptoken' },

@@ -63,4 +63,16 @@ export default {
     border: 1px solid transparent;
 }
 
+.fourth-headliner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    text-align: center;  
+    border: 1px solid transparent;
+}
+
 </style>

@@ -30,7 +30,7 @@ export default {
     text-transform: uppercase;
 }
 .large {
-    height: 25px;
+    height: 22px;
     font-size: 15px;
 }
 .medium {
