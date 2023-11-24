@@ -128,6 +128,7 @@
           { name: 'Code Orange', id: 'codeorange' },
           { name: 'Coheed & Cambria', id: 'candc' },
           { name: 'Converge', id: 'converge' },
+          { name: 'Corey Taylor', id: 'coreytaylor' },
           { name: 'Cradle Of Filth', id: 'cof' },
           { name: 'Creed', id: 'creed' },
           { name: 'Creeper', id: 'creeper' },

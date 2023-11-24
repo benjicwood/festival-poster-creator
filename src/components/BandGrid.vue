@@ -524,5 +524,7 @@ export default {
 .inthismoment { background-image: url(../assets/bands/inthismoment.png); }
 .creed { background-image: url(../assets/bands/creed.png); }
 .skynd { background-image: url(../assets/bands/skynd.png); }
+.coreytaylor { background-image: url(../assets/bands/coreytaylor.png); }
+
 
 </style>
