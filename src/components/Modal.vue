@@ -99,10 +99,11 @@
           { name: 'Baroness', id: 'baroness' },
           { name: 'Beartooth', id: 'beartooth' },
           { name: 'Behemoth', id: 'behemoth' },
-           { name: 'Better Lovers', id: 'betterlovers' },
+          { name: 'Better Lovers', id: 'betterlovers' },
           { name: 'Biffy Clyro', id: 'biffyclyro' },
           { name: 'Billie Eilish', id: 'billieeilish' },
           { name: 'Billy Talent', id: 'billytalent' },
+          { name: 'Biohazard', id: 'biohazard' },
           { name: 'The Black Dahlia Murder', id: 'tbdm' },
           { name: 'Black Flag', id: 'blackflag' },
           { name: 'Black Label Society', id: 'blacklabelsociety' },
@@ -165,6 +166,7 @@
           { name: 'Faith No More', id: 'fnm' },
           { name: 'Fall Out Boy', id: 'fob' },
           { name: 'Falling in Reverse', id: 'fallinginreverse' },
+          { name: 'Fear Factory', id: 'fearfactory' },
           { name: 'Feeder', id: 'feeder' },   
           { name: 'Five Finger Death Punch', id: 'ffdp' },
           { name: 'Foals', id: 'foals' },
@@ -189,6 +191,7 @@
           { name: 'Halsey', id: 'halsey' },
           { name: 'Hatebreed', id: 'hatebreed' },
           { name: 'Heck', id: 'heck' },
+          { name: 'Heilung', id: 'heilung' },
           { name: 'Helloween', id: 'helloween' },
           { name: 'High on Fire', id: 'highonfire' },
           { name: 'The Hives', id: 'thehives' },
@@ -292,6 +295,7 @@
           { name: 'Pixies', id: 'pixies' },
           { name: 'Placebo', id: 'placebo' },
           { name: 'Poison', id: 'poison' },
+          { name: 'Polyphia', id: 'polyphia' },
           { name: 'Porcupine Tree', id: 'porcupinetree' },
           { name: 'Powerwolf', id: 'powerwolf' },
           { name: 'The Pretty Reckless', id: 'theprettyreckless' },
@@ -387,10 +391,15 @@
       },
     },
     methods: {
-        onSelectedOption(selected) {
-          this.$emit('selected', selected)
-
+      onSelectedOption(selected) {
+        this.$emit('selected', selected)
     },
+      increaseLogoSize() {
+        props.size = props.size + 0.1;
+      },
+      decreaseLogoSize() {
+        props.size = props.size - 0.1;
+      },
       close() {
         this.$emit('close');
       },

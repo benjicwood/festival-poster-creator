@@ -525,6 +525,9 @@ export default {
 .creed { background-image: url(../assets/bands/creed.png); }
 .skynd { background-image: url(../assets/bands/skynd.png); }
 .coreytaylor { background-image: url(../assets/bands/coreytaylor.png); }
-
+.heilung { background-image: url(../assets/bands/heilung.png); }
+.biohazard { background-image: url(../assets/bands/biohazard.png); }
+.polyphia { background-image: url(../assets/bands/polyphia.png); }
+.fearfactory { background-image: url(../assets/bands/fearfactory.png); }
 
 </style>
