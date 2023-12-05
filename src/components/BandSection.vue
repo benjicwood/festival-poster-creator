@@ -1,6 +1,6 @@
 <template>
   <!-- <p @click="increaseLogoSize">click +</p> -->
-  <div :class="`${position} ${band}`" :style="`transform:scale(${size})`">
+  <div :class="`${position} ${band}`">
   </div>
   <!-- <p @click="decreaseLogoSize">click -</p> -->
 </template>
@@ -12,15 +12,14 @@ export default {
   props: {
     band: String,
     position: String,
-    size: { type: String, default: 1 },
   },
   methods: {
-    increaseLogoSize() {
-      props.size = props.size + 0.1;
-    },
-    decreaseLogoSize() {
-      props.size = props.size - 0.1;
-    }
+    // increaseLogoSize() {
+    //   props.size = props.size + 0.1;
+    // },
+    // decreaseLogoSize() {
+    //   props.size = props.size - 0.1;
+    // }
   }
 }
 </script>

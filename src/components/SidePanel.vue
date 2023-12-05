@@ -34,6 +34,7 @@
         </p> -->
       </form>
     </div>
+    <!-- <button @click="addConfirmed">add confirmed bands</button> -->
     <!-- <div>
       <iframe
         id="kofiframe"
@@ -56,6 +57,14 @@ export default {
       showBar: false,
     };
   },
+  methods: {
+    // addConfirmed() {
+    //   this.bandPosition.fridayHeadliner = 'qotsa'
+    //   this.bandPosition.saturdayHeadliner = 'fob'
+    //   this.bandPosition.sundayHeadliner = 'a7x'
+    //   console.log('hello')
+    // },
+  }
 };
 </script>
 
