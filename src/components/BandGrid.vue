@@ -529,5 +529,9 @@ export default {
 .biohazard { background-image: url(../assets/bands/biohazard.png); }
 .polyphia { background-image: url(../assets/bands/polyphia.png); }
 .fearfactory { background-image: url(../assets/bands/fearfactory.png); }
+.fightstar { background-image: url(../assets/bands/fightstar.png); }
+.deathgrips { background-image: url(../assets/bands/deathgrips.png); }
+.lornashore { background-image: url(../assets/bands/lornashore.png); }
+.thegaslightanthem { background-image: url(../assets/bands/thegaslightanthem.png); }
 
 </style>
