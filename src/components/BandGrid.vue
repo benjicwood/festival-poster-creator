@@ -341,6 +341,7 @@ export default {
 .jawbreaker { background-image: url(../assets/bands/jawbreaker.png); }
 .jew { background-image: url(../assets/bands/jew.png); }
 .kgatlw { background-image: url(../assets/bands/kgatlw.png); }
+.letlive { background-image: url(../assets/bands/letlive.png); }
 .mgk { background-image: url(../assets/bands/mgk.png); }
 .themarsvolta { background-image: url(../assets/bands/themarsvolta.png); }
 .menzingers { background-image: url(../assets/bands/menzingers.png); }

@@ -233,6 +233,7 @@
           { name: 'Lacuna Coil', id: 'lacunacoil' },
           { name: 'Lamb Of God', id: 'log' },
           { name: 'Less Than Jake', id: 'ltj' },
+          { name: 'Letlive', id: 'letlive' },
           { name: 'Limp Bizkit', id: 'limpbizkit' },
           { name: 'Lindemann', id: 'lindemann' },
           { name: 'Linkin Park', id: 'linkinpark' },
