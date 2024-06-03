@@ -25,6 +25,9 @@
     <BandInput size="large" />
     <BandInput size="large" />
     <BandInput size="large" />
+    <BandInput size="large" />
+    <BandInput size="large" />
+    <BandInput size="large" />
     <div class="main-stage-divider"></div>
     <div class="main-stage-divider"></div>
     <div class="main-stage-divider"></div>
@@ -167,22 +170,22 @@ export default {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
-  padding: 210px 12px 0 10px;
+  padding: 180px 6px 0 6px;
   height: 100px;
-  width: 687px;
+  width: 695px;
 }
 .band-grid div:hover {
   border: solid pink 1px;
 }
 
 .main-stage-divider {
-  height: 22px;
+  height: 18px;
 }
 .second-stage-divider {
-  height: 12px;
+  height: 18px;
 }
 .third-stage-divider {
-  height: 20px;
+  height: 16px;
 }
 .main-stage-divider:hover, .second-stage-divider:hover, .third-stage-divider:hover {
   border: none !important;
@@ -534,5 +537,9 @@ export default {
 .deathgrips { background-image: url(../assets/bands/deathgrips.png); }
 .lornashore { background-image: url(../assets/bands/lornashore.png); }
 .thegaslightanthem { background-image: url(../assets/bands/thegaslightanthem.png); }
+.wagewar { background-image: url(../assets/bands/wagewar.png); }
+.thewarning { background-image: url(../assets/bands/thewarning.png); }
+.thechats { background-image: url(../assets/bands/thechats.png); }
+.dirtyloops { background-image: url(../assets/bands/dirtyloops.png); }
 
 </style>

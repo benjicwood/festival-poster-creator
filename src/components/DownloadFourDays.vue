@@ -25,8 +25,8 @@ export default {
 <style scoped style="scss">
 
 .download-four-day {
-  background-color: #711214;
-  background-image: url(../assets/download2024.png);
+  background-color: #6b1780;
+  background-image: url(../assets/download2025.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
