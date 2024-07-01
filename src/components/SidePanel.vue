@@ -22,10 +22,10 @@
         </label>
 
         <!-- your other form fields go here -->
-        <button type="submit" class="send-button" disabled>Send</button>
+        <button type="submit" class="send-button">Send</button>
         <p style="font-size: 0.7rem">
-          thanks! temporarily disabled while I catch up (on the sensible requests at least 😉)
-          <!-- warning - pressing send will leave the page -->
+          <!-- thanks! temporarily disabled while I catch up (on the sensible requests at least 😉) -->
+          warning - pressing send will leave the page
         </p>
         <!-- <p style="font-size: 0.8rem; margin: 1rem">
           I've hit the monthly limit! Thanks for the responses so far, will reopen it when it allows me to.
@@ -36,7 +36,7 @@
       </form>
     </div>
     <!-- <button @click="addConfirmed">add confirmed bands</button> -->
-    <!-- <div>
+    <div>
       <iframe
         id="kofiframe"
         src="https://ko-fi.com/benjicwood/?hidefeed=true&widget=true&embed=true&preview=true"
@@ -44,7 +44,7 @@
         height="712"
         title="benjicwood"
       ></iframe>
-    </div> -->
+    </div>
   </div>
 </template>
 
