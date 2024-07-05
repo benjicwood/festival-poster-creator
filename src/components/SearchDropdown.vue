@@ -121,9 +121,10 @@ export default {
     searchFilter() {
       if (this.filteredOptions.length === 0) {
         this.selected = {};
-      } else {
-        this.selected = this.filteredOptions[0];
       }
+      // else {
+      //   this.selected = this.filteredOptions[0];
+      // }
       this.$emit('filter', this.searchFilter);
     },
   },

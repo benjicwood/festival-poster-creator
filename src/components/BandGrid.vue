@@ -367,6 +367,7 @@ export default {
 .ghostemane {  background-image: url(../assets/bands/ghostemane.png); }
 .gvf { background-image: url(../assets/bands/gvf.png); }
 .gorillaz { background-image: url(../assets/bands/gorillaz.png); }
+.gwar { background-image: url(../assets/bands/gwar.png); }
 
 .hatebreed { background-image: url(../assets/bands/hatebreed.png); }
 .headautomatica { background-image: url(../assets/bands/headautomatica.png); }
@@ -646,6 +647,7 @@ export default {
 .yma6 { background-image: url(../assets/bands/yma6.png); }
 .yungblud { background-image: url(../assets/bands/yungblud.png); filter: brightness(1.2); }
 
+.zand { background-image: url(../assets/bands/zand.png); }
 .zealandardor { background-image: url(../assets/bands/zealandardor.png); }
 .zebrahead { background-image: url(../assets/bands/zebrahead.png); }
 .zztop { background-image: url(../assets/bands/zztop.png); }
