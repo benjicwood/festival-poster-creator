@@ -94,6 +94,8 @@
           { name: 'Arctic Monkeys', id: 'arcticmonkeys' },
           { name: 'Arch Enemy', id: 'archenemy' },
           { name: 'Architects', id: 'architects' },
+          { name: 'The Armed', id: 'thearmed' },
+          { name: 'The Ataris', id: 'theataris' },
           { name: 'As I Lay Dying', id: 'aild' },
           { name: 'Ashnikko', id: 'ashnikko' },
           { name: 'Asking Alexandria', id: 'aa' },
@@ -471,6 +473,7 @@
           { name: 'ZZ Top', id: 'zztop' },   
           { name: '100 Gecs', id: 'gecs' },
           { name: 'The 1975', id: 'the1975' },
+          { name: '3Teeth', id: 'teeth' },
           { name: '30 Seconds To Mars', id: 'thirtystm' },
         ]
       },

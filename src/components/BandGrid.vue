@@ -195,8 +195,8 @@ export default {
 
 .a { background-image: url(../assets/bands/a.png); filter: brightness(2); }
 .apc { background-image: url(../assets/bands/apc.png); }
-.acdc { background-image: url(../assets/bands/acdc.png); }
 .adtr { background-image: url(../assets/bands/adtr.png); filter: brightness(1.2); }
+.acdc { background-image: url(../assets/bands/acdc.png); }
 .aerosmith { background-image: url(../assets/bands/aerosmith.png); }
 .afi { background-image: url(../assets/bands/afi.png); }
 .againstme { background-image: url(../assets/bands/againstme.png); }
@@ -234,6 +234,9 @@ export default {
 .a7x { background-image: url(../assets/bands/a7x.png); }
 .avril { background-image: url(../assets/bands/avril.png); }
 .asiwyfa { background-image: url(../assets/bands/asiwyfa.png); }
+.thearmed { background-image: url(../assets/bands/thearmed.png); }
+.theataris { background-image: url(../assets/bands/theataris.png); }
+.teeth { background-image: url(../assets/bands/3teeth.png); }
 
 .badomens { background-image: url(../assets/bands/badomens.png); }
 .badreligion { background-image: url(../assets/bands/badreligion.png); }
@@ -320,7 +323,7 @@ export default {
 .depechemode { background-image: url(../assets/bands/depechemode.png); }
 .duranduran { background-image: url(../assets/bands/duranduran.png); }
 .dcfc { background-image: url(../assets/bands/dcfc.png); }
-.destroyboys { background-image: url(../assets/bands/blink182.png); }
+.destroyboys { background-image: url(../assets/bands/destroyboys.png); }
 
 .electriccallboy { background-image: url(../assets/bands/electriccallboy.png); }
 .esb { background-image: url(../assets/bands/esb.png); }
