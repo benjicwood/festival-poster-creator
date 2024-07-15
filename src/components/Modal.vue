@@ -501,6 +501,7 @@
           { name: 'The Wytches', id: 'wytches' },
           { name: 'The Xcerts', id: 'xcerts' },
           { name: 'Yellowcard', id: 'yellowcard' },
+          { name: 'Yonaka', id: 'yonaka' },
           { name: 'YouMeAtSix', id: 'yma6' },
           { name: 'Yungblud', id: 'yungblud' },
           { name: 'Zand', id: 'zand' },

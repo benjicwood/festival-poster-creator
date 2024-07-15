@@ -678,6 +678,7 @@ export default {
 .xcerts { background-image: url(../assets/bands/xcerts.png); }
 
 .yellowcard { background-image: url(../assets/bands/yellowcard.png); }
+.yonaka { background-image: url(../assets/bands/yonaka.png); }
 .yma6 { background-image: url(../assets/bands/yma6.png); }
 .yungblud { background-image: url(../assets/bands/yungblud.png); filter: brightness(1.2); }
 
