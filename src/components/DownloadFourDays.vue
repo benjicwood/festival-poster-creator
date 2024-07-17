@@ -1,7 +1,7 @@
 <template>
   <div class="download-four-day">
     <BandGrid />
-    <SidePanel />
+    <!-- <SidePanel /> -->
   </div>
 </template>
 
