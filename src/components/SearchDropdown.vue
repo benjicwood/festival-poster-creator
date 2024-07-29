@@ -56,7 +56,7 @@ export default {
     maxItem: {
       type: Number,
       required: false,
-      default: 10,
+      default: 550,
     },
       key: {
       type: Number,
@@ -193,6 +193,8 @@ export default {
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
+  overflow: scroll;
+  max-height: 200px;
 }
 
 .dropdown-menu > li > a {
