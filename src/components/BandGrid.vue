@@ -316,6 +316,7 @@ export default {
 .cantswim { background-image: url(../assets/bands/cantswim.png); }
 .crawlers { background-image: url(../assets/bands/crawlers.png); }
 .csh { background-image: url(../assets/bands/csh.png); }
+.crossfaith { background-image: url(../assets/bands/crossfaith.png); }
 .crystalfighters { background-image: url(../assets/bands/crystalfighters.png); }
 
 .dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
@@ -351,6 +352,8 @@ export default {
 .dreamwife { background-image: url(../assets/bands/dreamwife.png); }
 .demobhappy { background-image: url(../assets/bands/demobhappy.png); }
 .deafheaven { background-image: url(../assets/bands/deafheaven.png); }
+.dayseeker { background-image: url(../assets/bands/dayseeker.png); }
+.denzelcurry { background-image: url(../assets/bands/denzelcurry.png); }
 
 .electriccallboy { background-image: url(../assets/bands/electriccallboy.png); }
 .esb { background-image: url(../assets/bands/esb.png); }
@@ -363,6 +366,8 @@ export default {
 .evilscarecrow { background-image: url(../assets/bands/evilscarecrow.png); }
 .eminem { background-image: url(../assets/bands/eminem.png); }
 .exodus { background-image: url(../assets/bands/exodus.png); }
+.ets { background-image: url(../assets/bands/ets.png); }
+.eodm { background-image: url(../assets/bands/eodm.png); }
 
 .fnm { background-image: url(../assets/bands/fnm.png); }
 .fob { background-image: url(../assets/bands/fob.png); }
@@ -388,6 +393,7 @@ export default {
 .fidlar { background-image: url(../assets/bands/fidlar.png); }
 .finch { background-image: url(../assets/bands/finch.png); }
 .floggingmolly { background-image: url(../assets/bands/floggingmolly.png); }
+.sexpistols { background-image: url(../assets/bands/sexpistols.png); }
 
 .gallows { background-image: url(../assets/bands/gallows.png); }
 .garbage { background-image: url(../assets/bands/garbage.png); }
@@ -441,6 +447,7 @@ export default {
 .hakbaker { background-image: url(../assets/bands/hakbaker.png); }
 .horrors { background-image: url(../assets/bands/horrors.png); }
 .hoac { background-image: url(../assets/bands/hoac.png); }
+.hara { background-image: url(../assets/bands/hara.png); }
 
 .iprevail { background-image: url(../assets/bands/iprevail.png); }
 .icp { background-image: url(../assets/bands/icp.png); }
@@ -467,6 +474,7 @@ export default {
 .japandroids { background-image: url(../assets/bands/japandroids.png); }
 .joycemanor { background-image: url(../assets/bands/joycemanor.png); }
 .jamiet { background-image: url(../assets/bands/jamiet.png); }
+.joyformidable { background-image: url(../assets/bands/joyformidable.png); }
 
 .kidkapichi { background-image: url(../assets/bands/kidkapichi.png); }
 .kigh { background-image: url(../assets/bands/kigh.png); }
@@ -485,6 +493,7 @@ export default {
 .kitethief { background-image: url(../assets/bands/kitethief.png); }
 .kidbrunswick { background-image: url(../assets/bands/kidbrunswick.png); }
 .kyros { background-image: url(../assets/bands/kyros.png); }
+.kvelertak { background-image: url(../assets/bands/kvelertak.png); }
 
 .ltj { background-image: url(../assets/bands/ltj.png); }
 .letlive { background-image: url(../assets/bands/letlive.png); }
@@ -500,6 +509,7 @@ export default {
 .lowlives { background-image: url(../assets/bands/lowlives.png); }
 .letigre { background-image: url(../assets/bands/letigre.png); }
 .ljg { background-image: url(../assets/bands/ljg.png); }
+.ltb { background-image: url(../assets/bands/ltb.png); }
 
 .makethemsuffer { background-image: url(../assets/bands/makethemsuffer.png); }
 .malevolence { background-image: url(../assets/bands/msp.png); }
@@ -683,6 +693,7 @@ export default {
 .sk { background-image: url(../assets/bands/sk.png); }
 .sociald { background-image: url(../assets/bands/sociald.png); }
 .thescratch { background-image: url(../assets/bands/thescratch.png); }
+.seethingakira { background-image: url(../assets/bands/seethingakira.png); }
 
 .therapy { background-image: url(../assets/bands/therapy.png); }
 .thrice { background-image: url(../assets/bands/thrice.png); }
