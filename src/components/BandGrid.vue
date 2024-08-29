@@ -247,6 +247,7 @@ export default {
 .a7x { background-image: url(../assets/bands/a7x.png); }
 .avril { background-image: url(../assets/bands/avril.png); }
 .atreyu { background-image: url(../assets/bands/atreyu.png); }
+.acaciastrain { background-image: url(../assets/bands/acaciastrain.png); }
 
 .babymetal { background-image: url(../assets/bands/babymetal.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
@@ -322,6 +323,8 @@ export default {
 .crossfaith { background-image: url(../assets/bands/crossfaith.png); }
 .crystalfighters { background-image: url(../assets/bands/crystalfighters.png); }
 .chimaira { background-image: url(../assets/bands/chimaira.png); }
+.cassyette { background-image: url(../assets/bands/cassyette.png); }
+.clowncore { background-image: url(../assets/bands/clowncore.png); }
 
 .dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
 .thedarkness { background-image: url(../assets/bands/thedarkness.png); }
@@ -423,6 +426,7 @@ export default {
 .glassjaw { background-image: url(../assets/bands/glassjaw.png); }
 .gfm { background-image: url(../assets/bands/gfm.png); }
 .girlinred { background-image: url(../assets/bands/girlinred.png); }
+.guilttrip { background-image: url(../assets/bands/guilttrip.png); }
 
 .hatebreed { background-image: url(../assets/bands/hatebreed.png); }
 .headautomatica { background-image: url(../assets/bands/headautomatica.png); }
@@ -648,6 +652,7 @@ export default {
 .rina { background-image: url(../assets/bands/rina.png); }
 .rolotomassi { background-image: url(../assets/bands/rolotomassi.png); }
 .reuben { background-image: url(../assets/bands/reuben.png); filter: brightness(1.5); }
+.royalrepublic { background-image: url(../assets/bands/royalrepublic.png); }
 
 .scowl { background-image: url(../assets/bands/scowl.png); }
 .soia { background-image: url(../assets/bands/soia.png); }
@@ -736,6 +741,7 @@ export default {
 .underoath { background-image: url(../assets/bands/underoath.png); }
 .unpeople { background-image: url(../assets/bands/unpeople.png); }
 .theused { background-image: url(../assets/bands/theused.png); }
+.untoothers { background-image: url(../assets/bands/untoothers.png); }
 
 .veilofmaya { background-image: url(../assets/bands/veilofmaya.png); }
 .volbeat { background-image: url(../assets/bands/volbeat.png); }
