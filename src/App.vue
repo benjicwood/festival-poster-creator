@@ -1,14 +1,20 @@
 <template>
-  <DownloadFourDays msg="Welcome to Your Vue.js App"/>
+  <DownloadThreeDays msg="Welcome to Your Vue.js App"/>
+  <Footer />
+  <MobileWarning />
 </template>
 
 <script>
-import DownloadFourDays from './components/DownloadFourDays'
+import DownloadThreeDays from './components/DownloadThreeDays'
+import Footer from './components/Footer'
+import MobileWarning from './components/MobileWarning'
 
 export default {
   name: 'App',
   components: {
-    DownloadFourDays
+    DownloadThreeDays,
+    Footer,
+    MobileWarning,
   }
 }
 </script>
@@ -25,4 +31,6 @@ export default {
 body {
   margin: 0 !important;
 }
+
+
 </style>

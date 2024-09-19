@@ -10,7 +10,7 @@ import BandGrid from "./BandGrid.vue"
 import SidePanel from "./SidePanel.vue";
 
 export default {
-  name: 'DownloadFourDays',
+  name: 'DownloadThreeDays',
   components: {
     BandGrid,
     SidePanel,
@@ -25,7 +25,7 @@ export default {
 <style scoped style="scss">
 
 .download-four-day {
-  background-color: #6b1780;
+  background-color: #233140;
   background-image: url(../assets/download2025.png);
   background-size: contain;
   background-repeat: no-repeat;
