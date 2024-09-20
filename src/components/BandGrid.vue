@@ -530,7 +530,7 @@ export default {
 .ladispute { background-image: url(../assets/bands/ladispute.png); }
 
 .makethemsuffer { background-image: url(../assets/bands/makethemsuffer.png); }
-.malevolence { background-image: url(../assets/bands/msp.png); }
+.malevolence { background-image: url(../assets/bands/malevolence.png); }
 .msp { background-image: url(../assets/bands/msp.png); }
 .manorchestra { background-image: url(../assets/bands/manorchestra.png); }
 .marmozets { background-image: url(../assets/bands/marmozets.png); }
