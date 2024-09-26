@@ -5,9 +5,6 @@
 </template>
 
 <script>
-// import BandGrid from "./BandGrid.vue"
-// import SidePanel from "./SidePanel.vue";
-// import kofiLogo from "../assets/icons/kofi.png"
 
 export default {
   name: 'MobileWarning',
@@ -31,7 +28,6 @@ export default {
     border-top: 1px solid black;
 }
 
-/* Show the class on mobile screens (max-width of 768px) */
 @media (max-width: 668px) {
     .mobile-only {
         display: block; /* Change to inline or flex if needed */
