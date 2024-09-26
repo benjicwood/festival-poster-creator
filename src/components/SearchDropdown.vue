@@ -43,7 +43,7 @@ export default {
       required: true,
       // default: [],
     },
-    placeholder: { 
+    placeholder: {
       type: String,
       required: false,
       default: 'Please select an option',
@@ -71,21 +71,18 @@ export default {
       searchFilter: '',
     };
   },
-  created() {
-    this.$emit('selected', this.selected);
-  },
   computed: {
     filteredOptions() {
-      const filtered = [];
-      const regex = new RegExp(this.searchFilter, 'ig');
-      for (const option of this.options) {
-        if (this.searchFilter.length < 1 || option.name.match(regex)) {
-          if (filtered.length < this.maxItem) filtered.push(option);
+        const filtered = [];
+        const regex = new RegExp(this.searchFilter, 'ig');
+        for (const option of this.options) {
+            if (this.searchFilter.length < 1 || option.name.match(regex)) {
+                if (filtered.length < this.maxItem) filtered.push(option);
         } else {
-          if (filtered.length > this.maxItem) filtered.push('option');
+            if (filtered.length > this.maxItem) filtered.push('option');
         }
-      }
-      return filtered;
+        }
+        return filtered;
     },
   },
   methods: {
