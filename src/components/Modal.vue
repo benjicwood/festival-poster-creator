@@ -26,7 +26,7 @@
         </slot>
        </section>
 
-       <template v-if="bandSelected">
+       <template v-if="bandSelected || hasBand">
             <div class="slider-container">
                 <label for="slider">Size: {{ getSize(sliderValue) }}</label>
                 <input
@@ -61,6 +61,7 @@
     name: 'Modal',
     props: {
         title: String,
+        hasBand: Boolean,
     },
     components: {
       SearchDropdown,

@@ -90,6 +90,7 @@
       @close="closeModal"
       :title="modalTitle"
       :key="key ? key.toString() : ''"
+      :hasBand="activeBand"
     />
   </div>
 </template>
@@ -176,6 +177,7 @@ export default {
           modalPosition: '',
           modalTitle: '',
           key: 0,
+          activeBand: null,
       }
   },
   methods: {
@@ -183,6 +185,7 @@ export default {
         this.modalPosition = position
         this.modalTitle = title
         this.key += 1
+        this.activeBand = !!this.bandPosition[this.modalPosition]
         this.isModalVisible = true
     },
     onSelect(selected) {
@@ -215,7 +218,7 @@ export default {
 .main-stage-divider {
     height: 18px;
 }
-.second-stage-divier {
+.second-stage-divider {
     height: 18px;
 }
 .third-stage-divider {
