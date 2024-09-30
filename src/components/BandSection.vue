@@ -1,26 +1,17 @@
 <template>
-  <!-- <p @click="increaseLogoSize">click +</p> -->
-  <div :class="`${position} ${band}`">
+  <div :class="`${position} ${band} ${band && size ? size : ''}`">
   </div>
-  <!-- <p @click="decreaseLogoSize">click -</p> -->
 </template>
 
 <script>
 
 export default {
-  name: 'BandSection',
-  props: {
-    band: String,
-    position: String,
-  },
-  methods: {
-    // increaseLogoSize() {
-    //   props.size = props.size + 0.1;
-    // },
-    // decreaseLogoSize() {
-    //   props.size = props.size - 0.1;
-    // }
-  }
+    name: 'BandSection',
+    props: {
+        band: String,
+        position: String,
+        size: String,
+    },
 }
 </script>
 
@@ -45,7 +36,7 @@ export default {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-    text-align: center;  
+    text-align: center;
     border: 1px solid transparent;
 }
 
@@ -57,7 +48,7 @@ export default {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-    text-align: center;  
+    text-align: center;
     border: 1px solid transparent;
 }
 
@@ -69,7 +60,7 @@ export default {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-    text-align: center;  
+    text-align: center;
     border: 1px solid transparent;
 }
 
@@ -81,8 +72,7 @@ export default {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-    text-align: center;  
+    text-align: center;
     border: 1px solid transparent;
 }
-
 </style>
