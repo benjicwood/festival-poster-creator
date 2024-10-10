@@ -414,6 +414,7 @@ export default {
 .exodus { background-image: url(../assets/bands/exodus.png); }
 .ets { background-image: url(../assets/bands/ets.png); }
 .eodm { background-image: url(../assets/bands/eodm.png); }
+.englishteacher { background-image: url(../assets/bands/englishteacher.png); }
 
 .fnm { background-image: url(../assets/bands/fnm.png); }
 .fob { background-image: url(../assets/bands/fob.png); }
@@ -500,6 +501,7 @@ export default {
 .hotelier { background-image: url(../assets/bands/hotelier.png); }
 .hwm { background-image: url(../assets/bands/hwm.png); }
 .hop { background-image: url(../assets/bands/hop.png); }
+.heriot { background-image: url(../assets/bands/heriot.png); }
 
 .iprevail { background-image: url(../assets/bands/iprevail.png); }
 .icp { background-image: url(../assets/bands/icp.png); }
@@ -611,6 +613,8 @@ export default {
 .mannequinpussy { background-image: url(../assets/bands/mannequinpussy.png); }
 .machinegirl { background-image: url(../assets/bands/machinegirl.png); }
 .malloryknox { background-image: url(../assets/bands/malloryknox.png); }
+.mothervulture { background-image: url(../assets/bands/mothervulture.png); }
+.mcfly { background-image: url(../assets/bands/mcfly.png); }
 
 .neckdeep { background-image: url(../assets/bands/neckdeep.png); }
 .nfg { background-image: url(../assets/bands/nfg.png); }
@@ -756,6 +760,8 @@ export default {
 .seethingakira { background-image: url(../assets/bands/seethingakira.png); }
 .saveface { background-image: url(../assets/bands/saveface.png); }
 .superheaven { background-image: url(../assets/bands/superheaven.png); }
+.standatlantic { background-image: url(../assets/bands/standatlantic.png); }
+.strayers { background-image: url(../assets/bands/strayers.png); }
 
 .therapy { background-image: url(../assets/bands/therapy.png); }
 .thrice { background-image: url(../assets/bands/thrice.png); }
@@ -794,6 +800,7 @@ export default {
 .venomprison { background-image: url(../assets/bands/venomprison.png); }
 .vukovi { background-image: url(../assets/bands/vukovi.png); }
 .viagraboys { background-image: url(../assets/bands/viagraboys.png); }
+.vower { background-image: url(../assets/bands/vower.png); }
 
 .watain { background-image: url(../assets/bands/watain.png); }
 .wagewar { background-image: url(../assets/bands/wagewar.png); }
