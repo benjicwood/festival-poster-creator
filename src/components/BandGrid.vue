@@ -331,6 +331,10 @@ export default {
 .brighteyes { background-image: url(../assets/bands/brighteyes.png); }
 .beansontoast { background-image: url(../assets/bands/beansontoast.png); }
 .boygenius { background-image: url(../assets/bands/boygenius.png); }
+.bb { background-image: url(../assets/bands/bb.png); }
+.blackgold { background-image: url(../assets/bands/blackgold.png); }
+.bloodincantation { background-image: url(../assets/bands/bloodincantation.png); }
+.bloodywood { background-image: url(../assets/bands/bloodywood.png); }
 
 .candc { background-image: url(../assets/bands/candc.png); }
 .callousdaoboys { background-image: url(../assets/bands/callousdaoboys.png); }
@@ -443,6 +447,7 @@ export default {
 .sexpistols { background-image: url(../assets/bands/sexpistols.png); }
 .frozemode { background-image: url(../assets/bands/frozemode.png); }
 .fftl { background-image: url(../assets/bands/fftl.png); }
+.fatn { background-image: url(../assets/bands/fatn.png); }
 
 .gallows { background-image: url(../assets/bands/gallows.png); }
 .garbage { background-image: url(../assets/bands/garbage.png); }
@@ -468,6 +473,7 @@ export default {
 .gfm { background-image: url(../assets/bands/gfm.png); }
 .girlinred { background-image: url(../assets/bands/girlinred.png); }
 .guilttrip { background-image: url(../assets/bands/guilttrip.png); }
+.godsmack { background-image: url(../assets/bands/godsmack.png); }
 
 .hatebreed { background-image: url(../assets/bands/hatebreed.png); }
 .headautomatica { background-image: url(../assets/bands/headautomatica.png); }
@@ -634,6 +640,7 @@ export default {
 .nightwish { background-image: url(../assets/bands/nightwish.png); }
 .nbt { background-image: url(../assets/bands/nbt.png); }
 .nails { background-image: url(../assets/bands/nails.png); }
+.nothingmore { background-image: url(../assets/bands/nothingmore.png); }
 
 .oasis { background-image: url(../assets/bands/oasis.png); }
 .oathbreaker { background-image: url(../assets/bands/oathbreaker.png); }
@@ -762,6 +769,7 @@ export default {
 .superheaven { background-image: url(../assets/bands/superheaven.png); }
 .standatlantic { background-image: url(../assets/bands/standatlantic.png); }
 .strayers { background-image: url(../assets/bands/strayers.png); }
+.skillet { background-image: url(../assets/bands/skillet.png); }
 
 .therapy { background-image: url(../assets/bands/therapy.png); }
 .thrice { background-image: url(../assets/bands/thrice.png); }
