@@ -287,6 +287,7 @@ export default {
 .acaciastrain { background-image: url(../assets/bands/acaciastrain.png); }
 .angeldust { background-image: url(../assets/bands/angeldust.png); }
 .apocalyptica { background-image: url(../assets/bands/apocalyptica.png); }
+.amiraelfeky { background-image: url(../assets/bands/amiraelfeky.png); }
 
 .babymetal { background-image: url(../assets/bands/babymetal.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
@@ -512,6 +513,8 @@ export default {
 .hwm { background-image: url(../assets/bands/hwm.png); }
 .hop { background-image: url(../assets/bands/hop.png); }
 .heriot { background-image: url(../assets/bands/heriot.png); }
+.hanl { background-image: url(../assets/bands/hanl.png); }
+.health { background-image: url(../assets/bands/health.png); }
 
 .iprevail { background-image: url(../assets/bands/iprevail.png); }
 .icp { background-image: url(../assets/bands/icp.png); }
@@ -578,6 +581,8 @@ export default {
 .ltb { background-image: url(../assets/bands/ltb.png); }
 .ladispute { background-image: url(../assets/bands/ladispute.png); }
 .lakemalice { background-image: url(../assets/bands/lakemalice.png); }
+.lagwagon { background-image: url(../assets/bands/lagwagon.png); }
+.landmvrks { background-image: url(../assets/bands/landmvrks.png); }
 
 .makethemsuffer { background-image: url(../assets/bands/makethemsuffer.png); }
 .malevolence { background-image: url(../assets/bands/malevolence.png); }
