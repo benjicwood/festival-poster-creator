@@ -289,6 +289,9 @@ export default {
 .apocalyptica { background-image: url(../assets/bands/apocalyptica.png); }
 .amiraelfeky { background-image: url(../assets/bands/amiraelfeky.png); }
 .alexg { background-image: url(../assets/bands/alexg.png); }
+.acidbath { background-image: url(../assets/bands/acidbath.png); }
+.anxious { background-image: url(../assets/bands/anxious.png); }
+.arabstrap { background-image: url(../assets/bands/arabstrap.png); }
 
 .babymetal { background-image: url(../assets/bands/babymetal.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
@@ -338,6 +341,7 @@ export default {
 .blackgold { background-image: url(../assets/bands/blackgold.png); }
 .bloodincantation { background-image: url(../assets/bands/bloodincantation.png); }
 .bloodywood { background-image: url(../assets/bands/bloodywood.png); }
+.bossk { background-image: url(../assets/bands/bossk.png); }
 
 .candc { background-image: url(../assets/bands/candc.png); }
 .callousdaoboys { background-image: url(../assets/bands/callousdaoboys.png); }
@@ -371,6 +375,7 @@ export default {
 .cassyette { background-image: url(../assets/bands/cassyette.png); }
 .clowncore { background-image: url(../assets/bands/clowncore.png); filter: brightness(1.5); }
 .civic { background-image: url(../assets/bands/civic.png); filter: brightness(1.5); }
+.caskets { background-image: url(../assets/bands/caskets.png); }
 
 .dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
 .thedarkness { background-image: url(../assets/bands/thedarkness.png); }
@@ -409,6 +414,7 @@ export default {
 .denzelcurry { background-image: url(../assets/bands/denzelcurry.png); }
 .dvne { background-image: url(../assets/bands/dvne.png); }
 .dzdeathrays { background-image: url(../assets/bands/dzdeathrays.png); filter: brightness(1.5); }
+.daisygrenade { background-image: url(../assets/bands/daisygrenade.png); }
 
 .electriccallboy { background-image: url(../assets/bands/electriccallboy.png); }
 .esb { background-image: url(../assets/bands/esb.png); }
@@ -660,6 +666,7 @@ export default {
 .nbt { background-image: url(../assets/bands/nbt.png); }
 .nails { background-image: url(../assets/bands/nails.png); }
 .nothingmore { background-image: url(../assets/bands/nothingmore.png); }
+.normandie { background-image: url(../assets/bands/normandie.png); }
 
 .oasis { background-image: url(../assets/bands/oasis.png); }
 .oathbreaker { background-image: url(../assets/bands/oathbreaker.png); }
@@ -668,6 +675,7 @@ export default {
 .opeth { background-image: url(../assets/bands/opeth.png); }
 .ozzy { background-image: url(../assets/bands/ozzy.png); }
 .oceangrove { background-image: url(../assets/bands/oceangrove.png); }
+.ota { background-image: url(../assets/bands/ota.png); }
 
 .palayeroyale { background-image: url(../assets/bands/palayeroyale.png); }
 .palewaves { background-image: url(../assets/bands/palewaves.png); }
@@ -707,6 +715,7 @@ export default {
 .pigdestroyer { background-image: url(../assets/bands/pigdestroyer.png); }
 .poisonthewell { background-image: url(../assets/bands/poisonthewell.png); }
 .powertrip { background-image: url(../assets/bands/powertrip.png); }
+.pod { background-image: url(../assets/bands/pod.png); }
 
 .qotsa { background-image: url(../assets/bands/qotsa.png); }
 .quicksand { background-image: url(../assets/bands/quicksand.png); }
@@ -797,6 +806,8 @@ export default {
 .styg { background-image: url(../assets/bands/styg.png); }
 .sdre { background-image: url(../assets/bands/sdre.png); }
 .sprints { background-image: url(../assets/bands/sprints.png); }
+.sip { background-image: url(../assets/bands/sip.png); }
+.svalbard { background-image: url(../assets/bands/svalbard.png); }
 
 .therapy { background-image: url(../assets/bands/therapy.png); }
 .thrice { background-image: url(../assets/bands/thrice.png); }
@@ -824,6 +835,7 @@ export default {
 .tdg { background-image: url(../assets/bands/tdg.png); }
 .twilightsad { background-image: url(../assets/bands/twilightsad.png); }
 .teenmortgage { background-image: url(../assets/bands/teenmortgage.png); }
+.tribulation { background-image: url(../assets/bands/tribulation.png); }
 
 .uncleacid { background-image: url(../assets/bands/uncleacid.png); }
 .underoath { background-image: url(../assets/bands/underoath.png); }
@@ -860,7 +872,8 @@ export default {
 .warmduscher { background-image: url(../assets/bands/warmduscher.png); }
 .wato { background-image: url(../assets/bands/wato.png); }
 .winonafighter { background-image: url(../assets/bands/winonafighter.png); }
-
+.wallows { background-image: url(../assets/bands/wallows.png); }
+.witchfever { background-image: url(../assets/bands/witchfever.png); }
 .xcerts { background-image: url(../assets/bands/xcerts.png); }
 
 .yellowcard { background-image: url(../assets/bands/yellowcard.png); }
