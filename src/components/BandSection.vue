@@ -44,7 +44,7 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50px;
+    height: 38px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
