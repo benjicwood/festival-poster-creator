@@ -310,6 +310,9 @@ export default {
 .arabstrap { background-image: url(../assets/bands/arabstrap.png); }
 .alanismorissette { background-image: url(../assets/bands/alanismorissette.png); }
 .ash { background-image: url(../assets/bands/ash.png); }
+.afs { background-image: url(../assets/bands/afs.png); }
+.amenra { background-image: url(../assets/bands/amenra.png); }
+.armslength { background-image: url(../assets/bands/armslength.png); }
 
 .babymetal { background-image: url(../assets/bands/babymetal.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
@@ -630,6 +633,7 @@ export default {
 .landmvrks { background-image: url(../assets/bands/landmvrks.png); }
 .lambrinigirls { background-image: url(../assets/bands/lambrinigirls.png); }
 .lsdunes { background-image: url(../assets/bands/lsdunes.png); }
+.loverarely { background-image: url(../assets/bands/loverarely.png); }
 
 .makethemsuffer { background-image: url(../assets/bands/makethemsuffer.png); }
 .malevolence { background-image: url(../assets/bands/malevolence.png); }
@@ -684,6 +688,7 @@ export default {
 .monstermagnet { background-image: url(../assets/bands/monstermagnet.png); }
 .momjeans { background-image: url(../assets/bands/momjeans.png); }
 .massivewagons { background-image: url(../assets/bands/massivewagons.png); }
+.mindforce { background-image: url(../assets/bands/mindforce.png); }
 
 .neckdeep { background-image: url(../assets/bands/neckdeep.png); }
 .nfg { background-image: url(../assets/bands/nfg.png); }
@@ -756,6 +761,7 @@ export default {
 .poisonthewell { background-image: url(../assets/bands/poisonthewell.png); }
 .powertrip { background-image: url(../assets/bands/powertrip.png); }
 .pod { background-image: url(../assets/bands/pod.png); }
+.president { background-image: url(../assets/bands/president.png); }
 
 .qotsa { background-image: url(../assets/bands/qotsa.png); }
 .quicksand { background-image: url(../assets/bands/quicksand.png); }
