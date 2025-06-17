@@ -21,7 +21,7 @@
           :key="index"
         >
           <a href="javascript:void(0)">
-            {{ option.name || option.id || '-' }}
+            {{ option?.name || option?.id || '-' }}
           </a>
         </li>
       </ul>
@@ -76,20 +76,30 @@ export default {
         const filtered = [];
         const regex = new RegExp(this.searchFilter, 'ig');
         for (const option of this.options) {
+            if (!option || typeof option.name !== 'string') continue;
             if (this.searchFilter.length < 1 || option.name.match(regex)) {
-                if (filtered.length < this.maxItem) filtered.push(option);
-        } else {
-            if (filtered.length > this.maxItem) filtered.push('option');
+            if (filtered.length < this.maxItem) filtered.push(option);
+            }
         }
-        }
-        return filtered;
-    },
+    return filtered;
+},
+    // filteredOptions() {
+    //     const filtered = [];
+    //     const regex = new RegExp(this.searchFilter, 'ig');
+    //     for (const option of this.options) {
+    //         if (!option || typeof option.name !== 'string') continue; // ✅ Skip bad entries
+    //         if (this.searchFilter.length < 1 || option.name.match(regex)) {
+    //         if (filtered.length < this.maxItem) filtered.push(option);
+    //         }
+    //     }
+    // return filtered;
+    // },
   },
   methods: {
     selectOption(option) {
       this.selected = option;
       this.optionsShown = false;
-      this.searchFilter = this.selected.name;
+      this.searchFilter = this.selected?.name;
       this.$emit('selected', this.selected);
     },
     showOptions() {
@@ -103,7 +113,7 @@ export default {
         this.selected = {};
         this.searchFilter = '';
       } else {
-        this.searchFilter = this.selected.name;
+        this.searchFilter = this.selected?.name;
       }
       this.$emit('selected', this.selected);
       this.optionsShown = false;
