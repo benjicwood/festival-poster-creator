@@ -136,6 +136,7 @@
                 { name: 'Asking Alexandria', id: 'aa' },
                 { name: 'Atreyu', id: 'atreyu' },
                 { name: 'August Burns Red', id: 'augustburnsred' },
+                { name: 'Avatar', id: 'avatar' },
                 { name: 'Avenged Sevenfold', id: 'a7x' },
                 { name: 'Avril Lavigne', id: 'avril' },
                 { name: 'BabyMetal', id: 'babymetal' },

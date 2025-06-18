@@ -99,8 +99,8 @@
       @size="onResize"
       @close="closeModal"
       :title="modalTitle"
-      :key="key ? key.toString() : ''"
       :hasBand="activeBand"
+      :key="key ? key.toString() : ''"
     />
   </div>
 </template>
@@ -313,6 +313,7 @@ export default {
 .afs { background-image: url(../assets/bands/afs.png); }
 .amenra { background-image: url(../assets/bands/amenra.png); }
 .armslength { background-image: url(../assets/bands/armslength.png); }
+.avatar { background-image: url(../assets/bands/avatar.png); }
 
 .babymetal { background-image: url(../assets/bands/babymetal.png); }
 .badomens { background-image: url(../assets/bands/badomens.png); }
