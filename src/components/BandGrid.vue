@@ -562,6 +562,7 @@ export default {
 .hanl { background-image: url(../assets/bands/hanl.png); }
 .health { background-image: url(../assets/bands/health.png); }
 .haunted { background-image: url(../assets/bands/thehaunted.png); }
+.hawkwind { background-image: url(../assets/bands/hawkwind.png); }
 
 .iprevail { background-image: url(../assets/bands/iprevail.png); }
 .icp { background-image: url(../assets/bands/icp.png); }

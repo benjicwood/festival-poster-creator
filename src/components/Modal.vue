@@ -348,6 +348,7 @@
                 { name: 'The Haunted', id: 'haunted' },
                 { name: 'Have A Nice Life', id: 'hanl' },
                 { name: 'Have Heart', id: 'haveheart' },
+                { name: 'Hawkwind', id: 'hawkwind' },
                 { name: 'Head Automatica', id: 'headautomatica' },
                 { name: 'Health', id: 'health' },
                 { name: 'Heart Attack Man', id: 'heartattackman' },
