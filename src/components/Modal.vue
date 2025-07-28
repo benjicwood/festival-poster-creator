@@ -754,7 +754,6 @@
             this.$emit('selected', selected);
 
             if (selected?.name) {
-                console.log("%cSelected Name: ", "font-size:20px;color:orange;", selected.name);
                 window.gtag('event', 'band_selected', {
                     band_name: selected.name,
                     value: 1,
