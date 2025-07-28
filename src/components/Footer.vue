@@ -1,13 +1,13 @@
 <template>
   <div class="footer">
-    <a href="https://ko-fi.com/benjicwood" target="_blank">
+    <a href="https://ko-fi.com/benjicwood" target="_blank" @click="trackClick('Ko-fi')">
         <img class="kofi-link" src="../assets/icons/kofi_button_dark.png" alt="kofi">
     </a>
-    <a href="https://benjicwood.github.io/2000trees-poster-creator/" target="_blank">
+    <a href="https://benjicwood.github.io/2000trees-poster-creator/" target="_blank" @click="trackClick('2000trees')">
         <img class="trees-link" src="../assets/icons/trees.png" alt="2000trees">
     </a>
-    <a href="https://www.instagram.com/benjicwood/" target="_blank">
-        <img class="insta-link" src="../assets/icons/insta_dark.png" alt="kofi">
+    <a href="https://www.instagram.com/benjicwood/" target="_blank" @click="trackClick('Instagram')">
+        <img class="insta-link" src="../assets/icons/insta_dark.png" alt="insta">
     </a>
   </div>
 </template>
@@ -18,7 +18,17 @@
 // import kofiLogo from "../assets/icons/kofi.png"
 
 export default {
-  name: 'Footer',
+    name: 'Footer',
+    methods: {
+    trackClick(label) {
+        if (window.gtag) {
+            window.gtag('event', 'footer_link_click', {
+            event_category: 'navigation',
+            event_label: label,
+            });
+        }
+    }
+    }
 //   components: {
 //   },
 //   props: {

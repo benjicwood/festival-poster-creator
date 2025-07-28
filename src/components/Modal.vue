@@ -751,7 +751,15 @@
     methods: {
         onSelectedOption(selected) {
             this.bandSelected = selected.id ? true : false;
-            this.$emit('selected', selected)
+            this.$emit('selected', selected);
+
+            if (selected?.name) {
+                console.log("%cSelected Name: ", "font-size:20px;color:orange;", selected.name);
+                window.gtag('event', 'band_selected', {
+                    band_name: selected.name,
+                    value: 1,
+                });
+            }
         },
         getSize(size) {
             const logoSizes = {
