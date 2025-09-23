@@ -858,6 +858,7 @@ export default {
 .rcd { background-image: url(../assets/bands/rcd.png); }
 .rbf { background-image: url(../assets/bands/rbf.png); }
 .rundmc { background-image: url(../assets/bands/rundmc.png); }
+.therasmus { background-image: url(../assets/bands/therasmus.png); }
 
 .scowl { background-image: url(../assets/bands/scowl.png); }
 .soia { background-image: url(../assets/bands/soia.png); }
@@ -974,6 +975,7 @@ export default {
 .teb { background-image: url(../assets/bands/teb.png); }
 .tdc { background-image: url(../assets/bands/tdc.png); }
 .terrorvision { background-image: url(../assets/bands/terrorvision.png); }
+.twistedsister { background-image: url(../assets/bands/twistedsister.png); }
 
 .uncleacid { background-image: url(../assets/bands/uncleacid.png); }
 .underoath { background-image: url(../assets/bands/underoath.png); }
