@@ -428,6 +428,8 @@ export default {
 .coalchamber { background-image: url(../assets/bands/coalchamber.png); }
 .conjurer { background-image: url(../assets/bands/conjurer.png); }
 .thecult { background-image: url(../assets/bands/thecult.png); }
+.cavalera { background-image: url(../assets/bands/cavalera.png); }
+.cavaleraad { background-image: url(../assets/bands/cavaleraad.png); }
 
 .dadifreyr { background-image: url(../assets/bands/dadifreyr.png); }
 .thedarkness { background-image: url(../assets/bands/thedarkness.png); }

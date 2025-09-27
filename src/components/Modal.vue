@@ -216,6 +216,8 @@
                 { name: 'Carpenter Brut', id: 'carpenterbrut' },
                 { name: 'Caskets', id: 'caskets' },
                 { name: 'Cassyette', id: 'cassyette' },
+                { name: 'Cavalera', id: 'cavalera' },
+                { name: 'Cavalera Chaos A.D.', id: 'cavaleraad' },
                 { name: 'Charlotte Sands', id: 'charlottesands' },
                 { name: 'Chase & Status', id: 'cands' },
                 { name: 'Chase Atlantic', id: 'chaseatlantic' },
