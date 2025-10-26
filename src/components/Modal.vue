@@ -865,7 +865,6 @@
             this.$emit('selected', selected);
 
             const position = this.getBandRole(this.position);
-            console.log(position)
 
             if (selected?.name) {
                 window.gtag('event', 'band_selected', {
