@@ -100,6 +100,7 @@
       @close="closeModal"
       :title="modalTitle"
       :hasBand="activeBand"
+      :position="modalPosition"
       :key="key ? key.toString() : ''"
     />
   </div>

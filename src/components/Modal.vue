@@ -62,6 +62,7 @@
     props: {
         title: String,
         hasBand: Boolean,
+        position: String,
     },
     components: {
       SearchDropdown,
@@ -830,13 +831,46 @@
         },
     },
     methods: {
+        getBandRole(key) {
+        const mapping = {
+            fridayHeadliner: 'headliner',
+            saturdayHeadliner: 'headliner',
+            sundayHeadliner: 'headliner',
+            fridaySub: 'main stage sub',
+            saturdaySub: 'main stage sub',
+            sundaySub: 'main stage sub',
+            fridayThird: 'main stage third',
+            saturdayThird: 'main stage third',
+            sundayThird: 'main stage third',
+            fridayFourth: 'main stage fourth',
+            saturdayFourth: 'main stage fourth',
+            sundayFourth: 'main stage fourth',
+            fridaySecondHeadliner: 'second stage headliner',
+            saturdaySecondHeadliner: 'second stage headliner',
+            sundaySecondHeadliner: 'second stage headliner',
+            fridaySecondSub: 'second stage sub',
+            saturdaySecondSub: 'second stage sub',
+            sundaySecondSub: 'second stage sub',
+            fridayThirdStage: 'third stage headliner',
+            saturdayThirdStage: 'third stage headliner',
+            sundayThirdStage: 'third stage headliner',
+            fridayFourthStage: 'fourth stage headliner',
+            saturdayFourthStage: 'fourth stage headliner',
+            sundayFourthStage: 'fourth stage headliner',
+        }
+          return mapping[key] || 'unknown'
+        },
         onSelectedOption(selected) {
             this.bandSelected = selected.id ? true : false;
             this.$emit('selected', selected);
 
+            const position = this.getBandRole(this.position);
+            console.log(position)
+
             if (selected?.name) {
                 window.gtag('event', 'band_selected', {
                     band_name: selected.name,
+                    position: position,
                     value: 1,
                 });
             }
