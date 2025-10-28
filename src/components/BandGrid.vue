@@ -486,6 +486,7 @@ export default {
 .entershikari { background-image: url(../assets/bands/entershikari.png); }
 .evanescence { background-image: url(../assets/bands/evanescence.png); }
 .electricwizard { background-image: url(../assets/bands/electricwizard.png); }
+.elvana { background-image: url(../assets/bands/elvana.png); }
 .epica { background-image: url(../assets/bands/epica.png); }
 .evilscarecrow { background-image: url(../assets/bands/evilscarecrow.png); }
 .eminem { background-image: url(../assets/bands/eminem.png); }
