@@ -834,6 +834,7 @@ export default {
 .pennywise { background-image: url(../assets/bands/pennywise.png); }
 .pintglass { background-image: url(../assets/bands/pintglass.png); }
 .pwts { background-image: url(../assets/bands/pwts.png); }
+.ppc { background-image: url(../assets/bands/ppc.png); }
 
 .qotsa { background-image: url(../assets/bands/qotsa.png); }
 .quicksand { background-image: url(../assets/bands/quicksand.png); }
@@ -863,6 +864,7 @@ export default {
 .rbf { background-image: url(../assets/bands/rbf.png); }
 .rundmc { background-image: url(../assets/bands/rundmc.png); }
 .therasmus { background-image: url(../assets/bands/therasmus.png); }
+.reo { background-image: url(../assets/bands/reo.png); }
 
 .scowl { background-image: url(../assets/bands/scowl.png); }
 .soia { background-image: url(../assets/bands/soia.png); }
