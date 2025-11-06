@@ -301,6 +301,7 @@
                 { name: 'Ecca Vandal', id: 'eccavandal' },
                 { name: 'Electric Callboy', id: 'electriccallboy' },
                 { name: 'Electric Wizard', id: 'electricwizard' },
+                { name: 'Elvana', id: 'elvana' },
                 { name: 'Elliot Minor', id: 'elliotminor' },
                 { name: 'Eminem', id: 'eminem' },
                 { name: 'Empire State Bastard', id: 'esb' },
