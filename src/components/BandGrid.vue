@@ -946,6 +946,7 @@ export default {
 .statechamps { background-image: url(../assets/bands/statechamps.png); }
 .staticx { background-image: url(../assets/bands/staticx.png); }
 .sumocyco { background-image: url(../assets/bands/sumocyco.png); }
+.scooter { background-image: url(../assets/bands/scooter.png); }
 
 .therapy { background-image: url(../assets/bands/therapy.png); }
 .thrice { background-image: url(../assets/bands/thrice.png); }

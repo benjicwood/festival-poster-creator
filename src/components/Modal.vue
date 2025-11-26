@@ -664,6 +664,7 @@
                 { name: 'Saxon', id: 'saxon' },
                 { name: 'Scarlxrd', id: 'scarlxrd' },
                 { name: 'Scene Queen', id: 'scenequeen' },
+                { name: 'Scooter', id: 'scooter' },
                 { name: 'Scorpions', id: 'scorpions' },
                 { name: 'Scowl', id: 'scowl' },
                 { name: 'The Scratch', id: 'thescratch' },
