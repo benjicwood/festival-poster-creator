@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Soleil';
+    src: url('~@/assets/fonts/SoleilRegular.otf');
+}
+@font-face {
+    font-family: 'Soleil Bold';
+    src: url('~@/assets/fonts/SoleilBold.otf');
+}
+@font-face {
+    font-family: 'Soleil Book';
+    src: url('~@/assets/fonts/SoleilBook.otf');
+}
+@font-face {
+    font-family: 'Soleil Light';
+    src: url('~@/assets/fonts/SoleilLight.otf');
+}
+
+@mixin band-logo-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Soleil', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+@mixin hover-border {
+    box-sizing: border-box;  // ✅ ensures border doesn't increase size
+    border: 1px solid transparent; // set initial border so hover doesn't add space
+}
+
+.main-headliner {
+    @include band-logo-container;
+    @include hover-border;
+}
+.main-headliner:hover {
+    border: solid #C67D0E 1px;
+}
+
+// .main-sub {
+//     @include band-logo-container;
+//     @include hover-border;
+//     height: 100%;
+// }
+
+// .main-third {
+//     @include band-logo-container;
+//     @include hover-border;
+//     height: 50px;
+// }
+
+// .alt-third {
+//     @include band-logo-container;
+//     height: 50px;
+// }
+
+@mixin band-grid-container {
+    display: grid;
+    grid-gap: 2px;
+    height: 100px;
+}
+
+.band-grid-thursday {
+    @include band-grid-container;
+    padding: 15% 10% 0 10%;
+}
+
+.band-grid-friday {
+    @include band-grid-container;
+    padding: 10px 30px 0 50px;
+}
+
+.band-grid-saturday {
+    @include band-grid-container;
+    padding: 10px 40px 0 60px;
+}
+
+.headliners-one {
+    grid-template-columns: 1fr;
+}
+// .headliners-one div:hover {
+//     border: solid #C67D0E 1px;
+// }
+
+.headliners-two {
+    grid-template-columns: 1fr 1fr;
+}
+// .headliners-two div:hover {
+//     border: solid #C67D0E 1px;
+// }
+
+.sub-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    height: 20%;
+}
+
+.sub-grid-four {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    height: 20%;
+}
+
+.sub-grid div:hover {
+    border: solid #C67D0E 1px;
+}
+
+.sub-grid-four div:hover {
+    border: solid #C67D0E 1px;
+}
+
+.band-grid-wednesday {
+    // padding: 0 40px 0 60px;
+    display: flex;
+}
+
+.band-grid-wednesday div:hover {
+    border: solid #C67D0E 1px;
+}
+
+body.download-poster-bg {
+  background-color:#1f2832;
+}
+
+body.trees-poster-bg {
+  background-color: #213862;
+}
