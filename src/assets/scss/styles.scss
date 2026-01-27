@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Soleil';
-    src: url('~@/assets/fonts/SoleilRegular.otf');
+    src: url('/public/fonts/SoleilRegular.otf');
 }
 @font-face {
     font-family: 'Soleil Bold';
-    src: url('~@/assets/fonts/SoleilBold.otf');
+    src: url('/public/fonts/SoleilBold.otf');
 }
 @font-face {
     font-family: 'Soleil Book';
-    src: url('~@/assets/fonts/SoleilBook.otf');
+    src: url('/public/fonts/SoleilBook.otf');
 }
 @font-face {
     font-family: 'Soleil Light';
-    src: url('~@/assets/fonts/SoleilLight.otf');
+    src: url('/public/fonts/SoleilLight.otf');
 }
 
 @mixin band-logo-container {
