@@ -32,14 +32,20 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-    <!-- <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+     <!-- <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'S6S8MBON7');kofiwidget2.draw();</script> -->
     <script>
-      kofiWidgetOverlay.draw('benjicwood', {
-        'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Contact on Insta',
-        'floating-chat.donateButton.background-color': '#323842',
-        'floating-chat.donateButton.text-color': '#fff'
-      });
-    </script> -->
+        (function () {
+        const isMobile = window.innerWidth <= 768; // adjust breakpoint if needed
+
+        if (!isMobile) {
+            kofiWidgetOverlay.draw('benjicwood', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support Me',
+            'floating-chat.donateButton.background-color': '#323842',
+            'floating-chat.donateButton.text-color': '#fff'
+            });
+        }
+        })();
+    </script>
   </body>
 </html>

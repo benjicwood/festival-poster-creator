@@ -1,36 +1,34 @@
 <template>
-  <DownloadThreeDays msg="Welcome to Your Vue.js App"/>
-  <Footer />
-  <MobileWarning />
+    <!-- <router-view /> -->
+     <DownloadPoster />
 </template>
 
 <script>
-import DownloadThreeDays from './components/DownloadThreeDays'
-import Footer from './components/Footer'
-import MobileWarning from './components/MobileWarning'
+import DownloadPoster from './components/DownloadPoster/DownloadPoster.vue';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    DownloadThreeDays,
-    Footer,
-    MobileWarning,
+    DownloadPoster,
   }
-}
+};
 </script>
 
 <style>
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px; */
-}
-body {
-  margin: 0 !important;
-}
 
-
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  /* background-image: url(./assets/background/trees-blank-2026-feb-17-25.png); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+/* Make the app fill the viewport */
 </style>
