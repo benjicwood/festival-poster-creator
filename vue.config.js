@@ -2,6 +2,16 @@ const webpack = require('webpack');
 
 module.exports = {
   publicPath: process.env.NODE_ENV === "production" ? "/festival-poster-creator/" : "/",
+  css: {
+    loaderOptions: {
+      sass: {
+        api: "modern",
+      },
+      scss: {
+        api: "modern",
+      },
+    },
+  },
   configureWebpack: {
     plugins: [
       new webpack.DefinePlugin({

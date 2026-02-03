@@ -277,7 +277,7 @@ export default {
         const day = this.title?.split(" ")[0] || "Unknown"; // extract first word as day
         const position = this.position || "Unknown";
 
-        console.log("%cposition:", "font-size:20px; color:orange;", position);
+        // console.log("%cposition:", "font-size:20px; color:orange;", position);
 
         window.gtag("event", "band_selected", {
           band_name: selected.name,
