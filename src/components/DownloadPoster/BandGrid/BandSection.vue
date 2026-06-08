@@ -70,12 +70,16 @@ export default {
     border: solid #C67D0E 1px;
 }
 
+.main-sub.smaller {
+    height: 10%;
+}
+
 .second-stage {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   // height: 50px;
-  height: 30%;
+  height: 24%;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
@@ -84,7 +88,7 @@ export default {
 }
 
 .second-stage.smaller {
-  height: 15%;
+  height: 18%;
 }
 
 .second-stage:hover {

@@ -15,7 +15,7 @@
       <BandSection
         v-for="(slot, i) in bands.secondRow"
         :key="`second-${i}`"
-        position="main-sub"
+        :position="i === 2 ? 'main-sub smaller' : 'main-sub'"
         @click="emitOpen(`secondRow.${i}`, `${day} Band`)"
         :band="slot.band"
         :size="slot.size"
@@ -45,7 +45,7 @@
 
       <div class="input-grid">
         <BandInput size="medium" />
-        <BandInput size="small" />
+        <BandInput size="medium" />
         <BandInput size="small" />
         <BandInput size="small" />
       </div>
@@ -66,8 +66,8 @@
 
       <div class="input-grid">
         <!-- <BandInput size="medium" /> -->
-        <BandInput size="small" />
-        <BandInput size="small" />
+        <BandInput size="medium" />
+        <BandInput size="medium" />
         <BandInput size="small" />
       </div>
     </div>
@@ -127,8 +127,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between; // pushes BandInputs to the bottom
-  height: 43%;
+  height: 40%;
   box-sizing: border-box;
+  margin-bottom: 9%;
 }
 
 // .mainstage-input-grid {
