@@ -3,16 +3,16 @@
     <!-- Background selector buttons -->
     <div class="background-selector">
       <button
-        :class="{ active: selectedYear === '2026' }"
-        @click="selectedYear = '2026'"
-      >
-        2026
-      </button>
-      <button
         :class="{ active: selectedYear === '2027' }"
         @click="selectedYear = '2027'"
       >
         2027
+      </button>
+      <button
+        :class="{ active: selectedYear === '2028' }"
+        @click="selectedYear = '2028'"
+      >
+        2028
       </button>
     </div>
     <div class="poster-wrapper" ref="poster">
@@ -56,7 +56,7 @@
 <script>
 import BandGrid from "./BandGrid/BandGrid.vue";
 import { toPng, toBlob } from "html-to-image";
-import bg2026 from "../../assets/background/download-blank-2026.png";
+import bg2027 from "../../assets/background/download-blank-2027.png";
 import bgGeneric from "../../assets/background/download-generic.png";
 
 export default {
@@ -67,7 +67,7 @@ export default {
     return {
       isMobile: false,
       isHidden: false,
-      selectedYear: "2026",
+      selectedYear: "2027",
       toast: {
         show: false,
         message: "",
@@ -90,7 +90,7 @@ export default {
       });
     },
     backgroundSrc() {
-        return this.selectedYear === "2026" ? bg2026 : bgGeneric;
+        return this.selectedYear === "2027" ? bg2027 : bgGeneric;
     },
   },
 
