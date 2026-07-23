@@ -9,7 +9,7 @@
         "deploy": "sh deploy.sh"
     },
     "dependencies": {
-        "@benjicwood/artist-assets": "^1.0.24",
+        "@benjicwood/artist-assets": "^1.0.25",
         "core-js": "^3.6.5",
         "html-to-image": "^1.11.13",
         "search-dropdown-vue": "^1.0.2",
